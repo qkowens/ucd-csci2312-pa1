@@ -52,7 +52,7 @@ double Point::getZ() const
 
 double Point::distanceTo(const Point& second) const
 {
-	return sqrt(pow(x - second.getX(), 2)) + sqrt(pow(y - second.getY(), 2)) + sqrt(pow(z - second.getZ(), 2));
+	return sqrt(pow(x - second.getX(), 2) + pow(y - second.getY(), 2) + pow(z - second.getZ(), 2));
 }
 
 
